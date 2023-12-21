@@ -14,63 +14,63 @@ const Technologies = () => {
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
               title="C#"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* Javascript */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               title="Javascript"
-              proficiency="Advanced"
+              proficiency=""
             />
 
             {/* Typescript */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
               title="Typescript"
-              proficiency="Basics"
+              proficiency=""
             />
 
             {/* Nodejs */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
               title="Nodejs"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* Dotnet Core */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
               title="Dotnet Core"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* Tailwindcss */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
               title="Tailwindcss"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* HTML */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
               title="HTML"
-              proficiency="Advanced"
+              proficiency=""
             />
 
             {/* SQL Server */}
             <TechItem
-              iconClassName="devicon-microsoftsqlserver-plain text-3xl"
+              iconClassName="devicon-microsoftsqlserver-plain text-5xl flex-1"
               title="SQL Server"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* VS Code */}
             <TechItem
-              iconClassName="devicon-visualstudio-plain text-3xl text-blue-400"
+              iconClassName="devicon-visualstudio-plain text-5xl text-blue-400 flex-1"
               title="VS Code"
-              proficiency="Intermediate"
+              proficiency=""
             />
           </div>
 
@@ -79,63 +79,63 @@ const Technologies = () => {
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
               title="CSS"
-              proficiency="Advanced"
+              proficiency=""
             />
 
             {/* Bootstrap */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
               title="Bootstrap"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* Linux */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
               title="Linux"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* Postgresql */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
               title="Postgresql"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* MongoDb */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
               title="MongoDb"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* Express */}
             <TechItem
-              iconClassName="devicon-express-original text-3xl"
+              iconClassName="devicon-express-original text-5xl flex-1"
               title="Express"
-              proficiency="Advanced"
+              proficiency=""
             />
 
             {/* GIT */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
               title="GIT"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* GitHub */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
               title="GitHub"
-              proficiency="Intermediate"
+              proficiency=""
             />
 
             {/* Vim */}
             <TechItem
               imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg"
               title="Vim"
-              proficiency="Intermediate"
+              proficiency=""
             />
           </div>
         </div>
@@ -147,10 +147,10 @@ const Technologies = () => {
 const TechItem = ({ imgSrc, iconClassName, title, proficiency }) => {
   return (
     <div className="flex items-center mt-2 p-2 rounded-md bg-bg_light_navbar dark:bg-bg_message hover:animate-jump">
-      {imgSrc && <img src={imgSrc} className="w-12 mr-5" />}
+      {imgSrc && <img src={imgSrc} className="w-12 mr-5 flex-1" />}
       {iconClassName && <i className={iconClassName}></i>}
 
-      <div className="flex flex-col">
+      <div className="flex flex-col flex-1">
         <p className="font-bold">{title}</p>
         <span className="font-thin text-sm dark:text-gray-400 text-gray-700">{proficiency}</span>
       </div>
