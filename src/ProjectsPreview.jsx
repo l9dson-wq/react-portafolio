@@ -227,7 +227,7 @@ function ProjectsPreview() {
 
                 <div className="mt-2 flex justify-evenly items-center">
                   <a href="https://github.com/l9dson-wq/Social_Network" className="bg-green-300 rounded-sm p-2 hover:animate-jump text-black">Github</a>
-                  <a href="https://l3dsonsocialnetwork.azurewebsites.net" className="bg-green-300 rounded-sm p-2 line-through text-black">Test it</a>
+                  <a href="https://l3dsonsocialnetwork.azurewebsites.net" className="bg-green-300 rounded-sm p-2 text-black">Test it</a>
                 </div>
               </div>
             </div>
